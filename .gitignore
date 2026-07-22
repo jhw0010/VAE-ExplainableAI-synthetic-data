@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints
+.virtual_documents/
+
+# Data & Models
+data/*.csv
+!data/.gitkeep
+*.h5
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
